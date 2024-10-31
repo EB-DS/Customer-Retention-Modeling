@@ -48,8 +48,25 @@ pip install -r requirements.txt
 - README.md: Project description and details.
 - LICENSE: License file for the project.
 
-Customer Retention Modeling | [notebook](https://https://nbviewer.org/github/EB-DS/Customer-Retention-Modeling/blob/main/Customer_Retention_Modeling.ipynb)
+## Usage
+Clone the repository:
+```bash
+git clone https://github.com/your-username/Customer-Retention-Modeling.git
+```
 
+Navigate to the directory:
+```bash
+cd Customer-Retention-Modeling
+```
+
+Open the Jupyter Notebook:
+```bash
+jupyter notebook Customer_Retention_Modeling.ipynb
+```
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
 
