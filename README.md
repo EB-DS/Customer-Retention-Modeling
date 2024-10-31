@@ -25,40 +25,23 @@ The dataset used in this analysis, Telco Customer Churn, is publicly available o
 
 ## Modeling Insights
 - **Best Model**: The Random Forest model demonstrated an accuracy of 81% and an F1-score of 73% after hyperparameter tuning, making it effective in predicting churn.
-- **Key Predictors**: The top predictors of churn were **MonthlyCharges**, **TotalCharges**, and **tenure**, which provide actionable insights for retention strategies.
+- **Key Predictors**: The top predictors of churn were MonthlyCharges, TotalCharges, and tenure, which provide actionable insights for retention strategies.
 - **Improvement Opportunities**: The model's performance can be further enhanced by testing additional algorithms, refining features, or adjusting hyperparameters.
 
 ## Requirements
 To run this project, you'll need the following Python libraries:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
-Install the requirements using:
 
-```bash
-pip install -r requirements.txt
-# Project Structure
+## Project Structure
+- Customer_Retention_Modeling.ipynb: Jupyter notebook containing the full analysis and modeling process.
+- Customer_Retention_Modeling.html: HTML report for easy viewing of the notebook.
+- Telco-Customer-Churn dataset.csv: The dataset used for the project.
+- README.md: Project description and details.
+- LICENSE: License file for the project.
+- Install the requirements using:
 
-- **Customer_Retention_Modeling.ipynb**: Jupyter notebook containing the full analysis and modeling process.
-- **Customer_Retention_Modeling.html**: HTML report for easy viewing of the notebook.
-- **Telco-Customer-Churn dataset.csv**: The dataset used for the project.
-- **README.md**: Project description and details.
-- **LICENSE**: License file for the project.
-
-# Usage
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/Customer-Retention-Modeling.git
-# Usage
-
-Navigate to the directory:
-
-```bash
-cd Customer-Retention-Modeling
-Open the Jupyter Notebook:
-jupyter notebook Customer_Retention_Modeling.ipynb
