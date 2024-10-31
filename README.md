@@ -35,7 +35,11 @@ To run this project, you'll need the following Python libraries:
 - matplotlib
 - seaborn
 - scikit-learn
-
+  
+Install the requirements using:
+```bash
+pip install -r requirements.txt
+```
 
 ## Project Structure
 - Customer_Retention_Modeling.ipynb: Jupyter notebook containing the full analysis and modeling process.
@@ -43,5 +47,29 @@ To run this project, you'll need the following Python libraries:
 - Telco-Customer-Churn dataset.csv: The dataset used for the project.
 - README.md: Project description and details.
 - LICENSE: License file for the project.
-- Install the requirements using:
+
+## Usage
+Clone the repository:
+```bash
+git clone https://github.com/your-username/Customer-Retention-Modeling.git
+```
+
+Navigate to the directory:
+```bash
+cd Customer-Retention-Modeling
+```
+
+Open the Jupyter Notebook:
+```bash
+jupyter notebook Customer_Retention_Modeling.ipynb
+```
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
+
+
+
 
