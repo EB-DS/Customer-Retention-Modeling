@@ -47,3 +47,11 @@ pip install -r requirements.txt
 - Telco-Customer-Churn dataset.csv: The dataset used for the project.
 - README.md: Project description and details.
 - LICENSE: License file for the project.
+
+Customer Retention Modeling | [notebook](https://https://nbviewer.org/github/EB-DS/Customer-Retention-Modeling/blob/main/Customer_Retention_Modeling.ipynb)
+
+
+
+
+
+
